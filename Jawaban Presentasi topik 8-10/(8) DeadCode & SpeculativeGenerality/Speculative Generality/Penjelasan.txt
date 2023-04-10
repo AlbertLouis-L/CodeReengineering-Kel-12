@@ -1,0 +1,9 @@
+Speculative Generality adalah jenis smell code yang terjadi ketika code 
+dirancang untuk menjadi lebih umum dari yang seharusnya. Dalam hal ini, 
+class "Calculator" dapat menangani semua jenis operator, tetapi pada 
+kenyataannya, hanya perlu menangani beberapa operator tertentu. 
+Untuk memperbaiki code ini, kita dapat menghapus fleksibilitas yang 
+tidak perlu dengan hanya mengizinkan operator yang diperlukan untuk digunakan.
+Cara untuk memperbaiki code adalah dengan menghapus parameter 
+"operator" dan sebagai gantinya membuat method terpisah untuk setiap operasi
+supaya lebih mudah di maintain dan lebih mudah dibaca.
