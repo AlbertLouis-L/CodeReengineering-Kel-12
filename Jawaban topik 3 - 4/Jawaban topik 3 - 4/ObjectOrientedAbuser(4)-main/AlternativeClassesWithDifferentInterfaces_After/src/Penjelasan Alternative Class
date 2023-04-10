@@ -1,0 +1,4 @@
+Pada class CheckoutHandlent dan CurrencyConverter terdapat code smell yaitu dua method yang memiliki
+fungsi yang sama persis atau code smell ini disebut Alternative Classes with Different Interfaces. Sebagai
+solusinya dapat menggunakan move method. Yaitu method yang duplikat bisa dipindakan ke satu lainnya, lalu
+tinggal di implementasi method dari class satunya dengan menggunakan object.
