@@ -1,0 +1,1 @@
+Pada Kelas TwoDimensionalShape dan ThreeDimensionalShape tidak menambahkan perilaku atau fungsionalitas tambahan dibandingkan dengan kelas Shape. Mereka hanya memperkenalkan konsep keliling dan volume masing-masing, yang masih dapat ditangani oleh bentuk-bentuk individu itu sendiri.
