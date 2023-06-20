@@ -1,0 +1,5 @@
+Pada class ShoppingCart.java terdapat temporary field yang menampung nilai totalPrice. Temporary field
+dapat dipindahkan menggunakan metode extract class. Jadi pada class ShoppingCart.java awalnya memiliki
+dua responsibility yaitu menampung list item dan menampung totalPrice, maka dapat totalPrice dapat
+dipindah ke class baru yaitu CartTotalCalculator.java jadi pada class ShoppingCart sekarang hanya fokus
+pada satu responsibility yatiu menampung list item saja.
