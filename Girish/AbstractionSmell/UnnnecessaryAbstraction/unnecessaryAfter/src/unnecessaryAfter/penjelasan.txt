@@ -1,0 +1,3 @@
+UNECESSARY ABSTRACTION
+Untuk refactoring code berikut sesuai unnecessary abstraction code smell, kita hanya perlu menghapus subclass BlueButton dan RedButton 
+dengan cara langsung mengatur warna background button dari test code.

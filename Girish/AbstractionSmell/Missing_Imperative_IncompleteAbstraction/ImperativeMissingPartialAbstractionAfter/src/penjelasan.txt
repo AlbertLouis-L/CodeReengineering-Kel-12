@@ -1,0 +1,7 @@
+SlashCommandHandler class sekarang memiliki method terpisah untuk handle masing-masing slash command. 
+handleQrLoadCommand method handle "qrload" dengan memuat QR code berdasarkan nama. 
+Method createEmbedForQr untuk membantu create embed object untuk display detail QR.
+
+Class QrCodeEncoder mengkapsulasi fungsi kode teks ke dalam kode QR menggunakan library QRGen.
+Class QrData mengelola penyimpanan QR code yang telah disimpan menggunakan HashMap. 
+Ini menyediakan metode untuk menyimpan QR code dengan nama dan memuat QR code berdasarkan nama.

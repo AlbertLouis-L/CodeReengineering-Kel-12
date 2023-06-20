@@ -1,0 +1,9 @@
+
+Multifaceted abstraction merupakan code smell dimana sebuah class atau method melakukan multiple responsibilities yang tidak berhubungan 
+atau memiliki berbagai alasan untuk berubah. Ini sering membuat code sulit dimengerti dan dikelola.
+
+perubahan pada code:
+
+Mengekstrak logic print rectangle full dan rectangle dengan border menjadi metode-metode private terpisah untuk organisasi kode yang lebih baik.
+Mengganti if-else ladder pada method print dengan pemanggilan method yang sesuai berdasarkan style yang diberikan.
+Mengubah error message pada method print menjadi "Style not recognized" sesuai dengan behavior code.
