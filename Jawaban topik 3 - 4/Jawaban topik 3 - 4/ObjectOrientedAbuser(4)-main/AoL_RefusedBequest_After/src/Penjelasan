@@ -1,5 +1,0 @@
-Jadi pada class company terdapat code refuse bequest karena pada class tersebut terdapat inheritance
-yang kurang masuk akal karena class Company extends PersonalTaxCalculator karena hanya ingin ambil satu
-method dari class tersbut sedangkan method-method yang lain tidak dipakai atau ditolak (refuse). Untuk
-mengatasi code smell ini dapat menggunakan metode replace inheritance with delegation, yaitu dengan
-menghapus inheritance dan mengganti dengan atribut baru pada class Company.

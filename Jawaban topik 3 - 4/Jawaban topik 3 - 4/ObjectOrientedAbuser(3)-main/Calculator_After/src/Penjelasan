@@ -1,6 +1,0 @@
-Pada main.java terdapat code smell, yaitu pada method karena terlalu banyak if else dan perlu dihapus
-dengan menggunakan metode subclass. Pada class operation.java terdapat satu method yang nanti nya
-akan diimplementasikan ke semua class pembagian, pengurangan, perkalian, dan pertambahan. Dan tinggal
-dipindahkan string pada if-else pada main.java ke method pada masing-masing class pembagaian dan yang
-lainnya. Lalu if-else nya bisa dihapus dan diganti dengan print output dari string method pada class
-operation.
