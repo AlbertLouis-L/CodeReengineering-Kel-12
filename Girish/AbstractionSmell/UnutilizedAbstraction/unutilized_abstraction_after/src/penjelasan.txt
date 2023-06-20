@@ -1,0 +1,9 @@
+UNUTILIZED ABSTRACTION
+Dalam refactoring ini, kami berusaha untuk menghilangkan code smell unutilized abstraction. Unitilized abstraction merupakan sebuah code smell 
+yang terjadi ketika ada class abstrak serta methodnya yang tidak dipergunakan. Kami menghapus abstract class 'status' serta semua method di 
+dalamnya 
+abstract class status{
+	abstract void speed();
+	abstract void brakes();
+}
+karena tidak dipergunakan di class manapun. 

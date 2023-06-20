@@ -1,0 +1,41 @@
+DUPLICATE ABSTRACTION
+
+Untuk melakukan code refactoring untuk mengatasi duplicate abstraction bad code smell,
+kita dapat menghilangkan redundansi dengan memperkenalkan abstract class atau interface 
+yang umum untuk men define behavior yang sama antara vehicle dan motorcycle.
+
+Oleh karena itu, kami menggabungkan motorcycle ke dalam abstract class bernama Vehicle. Kemudian
+kami membentuk sebuah interface motorcycle untuk behavior spesifik untuk motor (cylinderCapacity()).
+
+abstract class Vehicle {
+    abstract void model();
+    abstract void color();
+    public void stock() {
+        System.out.println("available");
+    }
+}
+
+interface Motorcycle {
+    void cylinderCapacity();
+}
+
+
+
+
+Class Vehicle diperbarui untuk inherit abstract class dan implement interface
+Motorcycle. Class mercedes dan ducati dimodifikasi untuk inherit class Vehicle yang telah direfaktor, 
+dan implement interface Motorcycle pada class Ducati jika diperlukan.
+
+class Ducati extends Vehicle implements Motorcycle {
+    public void model() {
+        System.out.println("v4S");
+    }
+
+    public void color() {
+        System.out.println("red");
+    }
+
+    public void cylinderCapacity() {
+        System.out.println("1103cc");
+    }
+}
