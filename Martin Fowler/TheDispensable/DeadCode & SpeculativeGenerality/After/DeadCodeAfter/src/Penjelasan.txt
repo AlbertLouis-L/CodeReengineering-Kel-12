@@ -1,0 +1,11 @@
+"if(priceBefore>5000000) {			
+			finalPrice = priceBefore - (priceBefore*0.2);
+		}"
+
+perlu dihapus karena logika di dalamnya 
+tidak akan pernah terpanggil lagi setelah baris kode 
+di bawahnya dijalankan. Sehingga membuat kode tersebut 
+tidak berguna (dead code) dan hanya akan memperumit kode 
+program. Kode tersebut akan selalu diabaikan, bahkan jika 
+kondisinya terpenuhi. Sehingga lebih baik menghapusnya agar 
+kode program lebih efisien dan mudah dibaca.

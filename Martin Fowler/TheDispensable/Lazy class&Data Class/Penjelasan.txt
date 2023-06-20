@@ -1,0 +1,6 @@
+Lazy Class : cara merefaktornya adalah menambahkan sebuah class baru untuk mengutilize lazy classnya.
+
+Data Class : 
+Data class terjadi didalam class coordinates. Dimana didalamnya hanya terdapat variabel penyimpanan variabel dan setter getternya. 
+untuk merefaktor codenya dapat memindahkan method calculatedistance kepada class coordinate.
+

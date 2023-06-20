@@ -1,0 +1,5 @@
+Comments : Penggunaan comment yang kurang optimal dan kurang jelas, untuk merefactornya kita akan langsung mengubah variable dalam code supaya namanya 
+langsung dapat menjelaskan variable dan methodnya itu sendiri.
+
+DuplicateCode : terdapat print pada semua beberapa method, maka untuk merefaktornya dapat menggunakan extract method, masing-masing method return 
+sebuah nomor dan function printnya dipindahkan ke menu.
