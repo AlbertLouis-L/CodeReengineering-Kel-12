@@ -1,0 +1,9 @@
+Metode GetFullAddress sebaiknya ditempatkan di dalam kelas 
+ContactInfo karena metode tersebut berkaitan langsung dengan 
+informasi alamat dari objek ContactInfo, sehingga lebih baik 
+ditempatkan di dalam kelas yang sama agar kode menjadi lebih 
+terorganisir dan mudah dipelihara. Selain itu, metode 
+GetFullAddress hanya membutuhkan parameter ContactInfo, yang 
+sudah tersedia di dalam kelas ContactInfo, sehingga tidak perlu 
+ditempatkan di kelas User yang tidak memiliki akses langsung 
+ke data alamat.
