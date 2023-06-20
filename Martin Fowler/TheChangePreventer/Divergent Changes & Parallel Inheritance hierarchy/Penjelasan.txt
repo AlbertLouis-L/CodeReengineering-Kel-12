@@ -1,0 +1,7 @@
+Divergent Changes : pada bagian class Rectangle terdapat 2 method yang tidak saling terkait maka untuk merefactornya 
+bisa memisahkan methodnya ke class masing-masing.
+
+Parallel Inheritance Hierarchy : Code smell terdapat pada 2 hierarchy yaitu Shape2D dan AreaInterface, jika membuat sebuah object baru 
+maka harus membuat 2 class, untuk merefactorny kita implement kan areainterface ke dalam shape2d dan membuat methodny masing2 pada child shape2d
+
+
